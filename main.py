@@ -1,8 +1,8 @@
 #main.py
 from youtube_statistics import YTstats
 
-API_KEY="AIzaSyBmnKWC5gTLXm0Vny2CBQOE9gQw4TIM9o4"
-channel_id ="UCqECaJ8Gagnn7YCbPEzWH6g"
+API_KEY="your-api-key"
+channel_id ="channel_id of the youtube channel you want to analyze"
 
 yt = YTstats(API_KEY,channel_id)
 yt.get_channel_statistics()
